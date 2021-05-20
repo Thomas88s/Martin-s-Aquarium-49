@@ -5,24 +5,26 @@ background-color: #e2f2fe;
 .nav {
     display: flex;
     background-color: #d2ebfe;
-    justify-content: inherit;
-    text-align: center;
+   
 }
 .fishList {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
     margin: 1em;
+    
 }
 
 .tips {
-    flex-basis: 70%;
+    flex-basis: 30%;
+    min-width: 300px;
     border:solid;
     border-color: darkgreen;
     background-color: #00778E;
     margin: 1em;
+    padding: 1em;
 }
 .fishList {
+    
     background-color: #8cf;
     border: solid;
     border-color: darkgreen;
@@ -39,9 +41,24 @@ background-color: #e2f2fe;
     padding: 1em;
 }
 .fishes {
+    max-width: 350px;
+    border-radius: 2em;
     border: solid;
     padding: 1em;
+    margin: 1em;
+    flex: auto;
+    
 }
-.title {
-    text-align: center;
+.logo {
+    flex: 1;
+}
+.compName {
+    font-size: 25px;
+    flex: 3;
+
+}
+.image {
+    max-width: 350px;
+    
+    border-radius: 1em;
 }
