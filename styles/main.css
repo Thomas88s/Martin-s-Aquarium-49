@@ -1,18 +1,47 @@
 .mainSection {
 display: flex;
-
+background-color: #e2f2fe;
+}
+.nav {
+    display: flex;
+    background-color: #d2ebfe;
+    justify-content: inherit;
+    text-align: center;
 }
 .fishList {
     display: flex;
-    flex-wrap: inherit;
-    justify-content: ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 1em;
 }
 
 .tips {
     flex-basis: 70%;
+    border:solid;
+    border-color: darkgreen;
+    background-color: #00778E;
+    margin: 1em;
 }
 .fishList {
-    
+    background-color: #8cf;
     border: solid;
-    border-color: salmon;
+    border-color: darkgreen;
+}
+.fishQuotes {
+    background-color: #26a2ff;
+    border:solid;
+    border-color: darkblue;
+    padding: 1em;
+}
+.fishLocations {
+    background-color: #005392;
+    border: solid;
+    padding: 1em;
+}
+.fishes {
+    border: solid;
+    padding: 1em;
+}
+.title {
+    text-align: center;
 }
