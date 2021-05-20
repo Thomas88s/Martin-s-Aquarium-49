@@ -16,6 +16,7 @@ background-color: #e2f2fe;
 
 .tips {
     flex-basis: 30%;
+    min-width: 300px;
     border:solid;
     border-color: darkgreen;
     background-color: #00778E;
