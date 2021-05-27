@@ -8,10 +8,21 @@ background-color: #e2f2fe;
    
 }
 .fishList {
+   display: inline-block;
+}
+.fish_card {
+    padding: 1em;
+   margin: 1em;
+   border: solid;
+   
+}
+.taco {
     display: flex;
     flex-wrap: wrap;
     margin: 1em;
-    
+    background-color: #8cf;
+    border: solid;
+    border-color: darkgreen;
 }
 
 .tips {
@@ -23,11 +34,7 @@ background-color: #e2f2fe;
     margin: 1em;
     padding: 1em;
 }
-.fishList {
-    
-    background-color: #8cf;
-    border: solid;
-    border-color: darkgreen;
+
 }
 .fishQuotes {
     background-color: #26a2ff;
