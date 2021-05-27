@@ -9,16 +9,18 @@ background-color: #e2f2fe;
 }
 .leftSection {
     flex-basis: 70%;
+    max-width: 1320px;
 }
 .fishList {
     display: flex;
     flex-wrap: wrap;
 }
 
-.taco {
+.fish {
     display: flex;
     flex-wrap: wrap;
-    margin: 1em;
+    padding: 1em;
+  
     background-color: #8cf;
     border: solid;
     border-color: darkgreen;
@@ -36,6 +38,7 @@ background-color: #e2f2fe;
 .tips {
     flex-basis: 30%;
     min-width: 300px;
+    max-width: 900px;
     border:solid;
     border-color: darkgreen;
     background-color: #00778E;
@@ -48,11 +51,13 @@ background-color: #e2f2fe;
     border:solid;
     border-color: darkblue;
     padding: 1em;
+    margin: 1em;
 }
-.fishLocations {
+.locations {
     background-color: #005392;
     border: solid;
     padding: 1em;
+    margin: 1em;
 }
 
 .logo {
@@ -65,6 +70,10 @@ background-color: #e2f2fe;
 }
 .fish_image--card {
     max-width: 350px;
-    
+   
     border-radius: 1em;
+}
+.tip_card {
+    
+    margin: 1em;
 }
