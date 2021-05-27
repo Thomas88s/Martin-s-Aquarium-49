@@ -2,7 +2,7 @@
  export const fishDatabase = {
     fish: [
         {
-            image: "https://cdn.pixabay.com/photo/2016/12/31/21/22/discus-fish-1943755__340.jpg",
+            image: "https://media.gettyimages.com/photos/this-underwater-picture-taken-on-november-18-2020-shows-a-near-koh-picture-id1230119990?k=6&m=1230119990&s=612x612&w=0&h=NlXieodc9i3C3kMnf8BwBg93MkyAnWKuXYx33-5_vMI=",
             name: "Bart",
             species: "Biggie",
             length: "3 inches",
